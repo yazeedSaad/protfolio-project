@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 90%;
     margin: auto;
+    background-color: rgb(223, 220, 215);
     
 
 }
@@ -23,4 +24,16 @@ body {
     width: 80%;
     align-items: center;
     align-self: center;
+}
+.work-gallery {
+    width: 80%;
+    margin: auto;
+
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery-grid p {
+    justify-self: center;
 }
