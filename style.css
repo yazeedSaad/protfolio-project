@@ -4,9 +4,6 @@ body {
     margin: auto;
     background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1));
     color: white;
-
-    
-
 }
 
 .container {
@@ -15,11 +12,13 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    border-block-end:  4px solid rgb(255, 0, 0);
-    height: 23vh;
+    border-block-end:  0.2rem solid rgba(255, 255, 255, 0.7);
+    height: 25vh;
     font-style: italic; 
-
-
+}
+.logo-img{ 
+    height: 75%;
+    width: 75%;
 }
 .intro {
     margin: auto;
@@ -30,7 +29,6 @@ body {
 .work-gallery {
     width: 80%;
     margin: auto;
-
 }
 .gallery-grid {
     display: grid;
@@ -45,14 +43,10 @@ body {
 .project1 {
     display: flex;  
     flex-direction: column;  
-    justify-content: space-between;
-    background-color: yellow;
 }
 .project1 p, img {
     margin: auto;
     cursor: pointer;
-
-
 }
 .project2 {
     display: flex;  
@@ -60,7 +54,7 @@ body {
 }
 .project2 p, img {
     margin: auto;
-
+    cursor: pointer;
 }
 .project3 {
     display: flex;  
@@ -68,7 +62,7 @@ body {
 }
 .project3 p, img {
     margin: auto;
-
+    cursor: pointer;
 }
 .project4 {
     display: flex;  
@@ -76,8 +70,7 @@ body {
 }
 .project4 p, img {
     margin: auto;
-
-
+    cursor: pointer;
 }
 .project5 {
     display: flex;  
@@ -85,7 +78,7 @@ body {
 }
 .project5 p, img {
     margin: auto;
-
+    cursor: pointer;
 }
 .project6 {
     display: flex;  
@@ -93,5 +86,14 @@ body {
 }
 .project6 p, img {
     margin: auto;
-
+    cursor: pointer;
+}
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 12px;
+    }
+    .container img {
+        height: 75px;
+        width: 75px;
+    }
 }
