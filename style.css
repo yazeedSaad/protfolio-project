@@ -47,6 +47,7 @@ body {
 .project1 p, img {
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }
 .project2 {
     display: flex;  
@@ -55,6 +56,7 @@ body {
 .project2 p, img {
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }
 .project3 {
     display: flex;  
@@ -63,6 +65,7 @@ body {
 .project3 p, img {
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }
 .project4 {
     display: flex;  
@@ -71,6 +74,7 @@ body {
 .project4 p, img {
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }
 .project5 {
     display: flex;  
@@ -79,6 +83,7 @@ body {
 .project5 p, img {
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }
 .project6 {
     display: flex;  
@@ -87,6 +92,7 @@ body {
 .project6 p, img {
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }
 @media screen and (max-width: 360px) {
     body {
